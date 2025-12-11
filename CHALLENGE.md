@@ -56,7 +56,7 @@ You're building a Task Management Dashboard for a team collaboration tool. The a
 
 5. **State Management**
    - Implement a state management solution (choose one):
-     - Signals-based state (preferred for Angular 18+)
+     - Signals-based state (preferred for modern Angular)
      - RxJS with services
      - NgRx (if you're comfortable with it)
    - Handle loading, success, and error states
@@ -90,7 +90,7 @@ interface Task {
 
 2. **Performance Optimizations**
 
-   - Implement OnPush change detection strategy
+   - Optimize change detection (signals provide fine-grained reactivity, OnPush optional)
    - Lazy load routes
    - Virtual scrolling for large lists
    - Debounce search input
@@ -111,7 +111,7 @@ interface Task {
 
 ## Technical Constraints
 
-- Use **Angular 18** standalone components (no NgModules)
+- Use **modern Angular** standalone components (no NgModules)
 - Use **TypeScript strict mode** (already configured)
 - Follow **Angular style guide** best practices
 - Use **RxJS** for async operations

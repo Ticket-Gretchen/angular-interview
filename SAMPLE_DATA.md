@@ -108,7 +108,7 @@ You can use this sample data to seed your localStorage or for initial developmen
   {
     "id": "8",
     "title": "Research new Angular features",
-    "description": "Look into the latest Angular 18 features and evaluate if we should adopt them.",
+    "description": "Look into the latest Angular features and evaluate if we should adopt them.",
     "status": "pending",
     "priority": "low",
     "dueDate": null,
@@ -182,4 +182,3 @@ When implementing, ensure:
 ---
 
 This sample data is provided as a convenience. Candidates are free to use it, modify it, or create their own data structure as long as it meets the requirements in the challenge.
-
