@@ -2,13 +2,13 @@
   "name": "interview",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
+  "sourceRoot": "apps/interview/src",
+  "prefix": "app",
   "generators": {
     "@schematics/angular:component": {
       "style": "scss"
     }
   },
-  "sourceRoot": "apps/interview/src",
-  "prefix": "app",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
@@ -71,19 +71,10 @@
       "executor": "@angular-devkit/build-angular:extract-i18n"
     },
     "test": {
-      "executor": "@angular-devkit/build-angular:karma",
+      "executor": "@nx/vitest:test",
+      "outputs": ["{options.reportsDirectory}"],
       "options": {
-        "polyfills": ["zone.js", "zone.js/testing"],
-        "tsConfig": "apps/interview/tsconfig.spec.json",
-        "inlineStyleLanguage": "scss",
-        "assets": [
-          {
-            "glob": "**/*",
-            "input": "apps/interview/public"
-          }
-        ],
-        "styles": ["apps/interview/src/styles.scss"],
-        "scripts": []
+        "reportsDirectory": "../../coverage/apps/interview"
       }
     }
   }

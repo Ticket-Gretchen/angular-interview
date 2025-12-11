@@ -68,7 +68,6 @@ libs/                 # Shared libraries (if needed)
 
 - This is a standalone Angular application (no NgModules)
 - TypeScript strict mode is enabled
-- SSR (Server-Side Rendering) is configured but optional for the challenge
 
 ---
 

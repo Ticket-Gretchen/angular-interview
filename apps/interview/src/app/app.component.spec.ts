@@ -14,18 +14,15 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'interview' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('interview');
-  });
-
-  it('should render title', () => {
+  it('should render the starter header content', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Hello, interview'
+      'Angular Challenge - Task Management Dashboard'
+    );
+    expect(compiled.querySelector('.subtitle')?.textContent).toContain(
+      'coding challenge'
     );
   });
 });
