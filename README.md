@@ -7,6 +7,7 @@ This repository contains a take-home coding challenge for Senior Angular Develop
 👉 **Start here: [CHALLENGE.md](./CHALLENGE.md)**
 
 This document contains all the information you need to complete the challenge, including:
+
 - Product requirements
 - Technical specifications
 - Acceptance criteria
@@ -15,6 +16,7 @@ This document contains all the information you need to complete the challenge, i
 ## For Interviewers
 
 📋 **Review these documents:**
+
 - [EVALUATION_RUBRIC.md](./EVALUATION_RUBRIC.md) - Detailed scoring rubric
 - [INTERVIEWER_GUIDE.md](./INTERVIEWER_GUIDE.md) - Setup and evaluation guide
 - [SAMPLE_DATA.md](./SAMPLE_DATA.md) - Sample data for reference
@@ -46,7 +48,7 @@ The application will be available at `http://localhost:4200/`
 
 ## Project Structure
 
-This is an Nx workspace with Angular 18:
+This is an Nx workspace with Angular 21:
 
 ```
 apps/
@@ -58,11 +60,11 @@ libs/                 # Shared libraries (if needed)
 
 ## Technology Stack
 
-- **Angular**: 18.2.0
-- **TypeScript**: 5.5.2
+- **Angular**: 21.0.4
+- **TypeScript**: 5.9.x
 - **Nx**: 22.2.0
-- **RxJS**: 7.8.0
-- **Testing**: Karma + Jasmine
+- **RxJS**: 7.8.x
+- **Testing**: Vitest (unit) + Playwright (e2e)
 
 ## Notes
 
