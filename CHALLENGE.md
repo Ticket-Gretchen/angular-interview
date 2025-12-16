@@ -7,6 +7,8 @@ This challenge assesses your ability to work with existing Angular code—debugg
 **Time:** ~3 hours  
 **Focus:** Quality over quantity. Complete what you can, document trade-offs.
 
+**Please create a repository which can be shared with us.**
+
 ---
 
 ## Getting Started
