@@ -15,6 +15,7 @@ mkdir -p ./snapshots
 
 zip -r "./snapshots/$OUTPUT_NAME" . \
   -x "node_modules/*" \
+  -x "snapshots/*" \
   -x ".nx/*" \
   -x "dist/*" \
   -x "tmp/*" \
@@ -35,5 +36,5 @@ zip -r "./snapshots/$OUTPUT_NAME" . \
 
 echo ""
 echo "✅ Archive created: $OUTPUT_NAME"
-echo "📦 Size: $(du -h "$OUTPUT_NAME" | cut -f1)"
+echo "📦 Size: $(du -h "./snapshots/$OUTPUT_NAME" | cut -f1)"
 
