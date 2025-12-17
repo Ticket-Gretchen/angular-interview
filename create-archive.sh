@@ -7,9 +7,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Output filename with timestamp
-OUTPUT_NAME="interview-$(date +%Y%m%d-%H%M%S).zip"
+OUTPUT_NAME="interview-$(date +%Y%m%d).zip"
 
 echo "Creating archive: $OUTPUT_NAME"
+
+mkdir -p ./snapshots
 
 zip -r "./snapshots/$OUTPUT_NAME" . \
   -x "node_modules/*" \
