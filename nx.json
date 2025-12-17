@@ -1,4 +1,7 @@
 {
+  "tui": {
+    "enabled": false
+  },
   "defaultBase": "main",
   "namedInputs": {
     "sharedGlobals": [],
