@@ -4,7 +4,7 @@
 
 This challenge assesses your ability to work with existing Angular code—debugging, refactoring, and extending a real-world application. You'll work with a **Cultural Event Dashboard** that has some bugs and uses legacy patterns that need modernization.
 
-**Time:** ~3 hours  
+**Time:** ~5-6 hours  
 **Focus:** Quality over quantity. Complete what you can, document trade-offs.
 
 **Please create a repository which can be shared with us.**
